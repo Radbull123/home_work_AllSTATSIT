@@ -9,7 +9,10 @@ if __name__ == "__main__":
         while True:
             while True:
                 try:
-                    date = input("Hello user. Enter the date as sample: 30.02.2000 (dd.mm.yyyy) or ctr+C if you want to exit from the program:\t")
+                    date = input(
+                        "Hello user. Enter the date as sample: 30.02.2000 (dd.mm.yyyy), "
+                        "or press ctr+C if you want to exit from the program:\n"
+                    )
                     DateController.validate_date(date)            
                 except (TypeError, ValueError) as error:
                     logging.error(f"{error}.\n\t\t\tPlease, try again!")

@@ -9,6 +9,7 @@ __pycache__/
 # IDEs
 .vscode/
 *.code-workspace
+.history
 
 # Distribution / packaging
 .Python

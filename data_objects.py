@@ -2,7 +2,7 @@
 from dataclasses import dataclass, field
 from typing import Any
 
-from .errors import DateValError
+from errors import DateValError
 
 
 @dataclass
